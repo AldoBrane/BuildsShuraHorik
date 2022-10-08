@@ -1,3 +1,14 @@
 * {
-    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(31, 31, 35);
+}
+
+.upperbanner {
+    background-color: rgb(95, 19, 9);
+
+}
+
+.darkercolor {
+    background-color: rgb(14, 14, 16);
 }
