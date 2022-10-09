@@ -1,23 +1,48 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(14, 14, 16);
+    background-color: rgb(33, 33, 36);
     
 }
 
-.upperbanner {
-    padding: 20px;
-    font-size: 2em;
-    background-color: rgb(95, 19, 9);
-
+#container {
+    
+    margin: 0 auto;
+    padding: 8px;
+    background-color: rgb(14, 14, 16);
 }
 
-.darkercolor {
+#intro {
+    display: inline;
+    padding: 8px;
+    font-size: 25px;
+    background-color: rgb(14, 14, 16);
+    color: white;
+    text-shadow: -1px -1px 0 rgb(189, 104, 7), 1px -1px 0 rgb(189, 104, 7), -1px 1px 0 rgb(189, 104, 7), 1px 1px 0 rgb(189, 104, 7);
+    text-align: left;
+}
+
+#SocialMedia{
+    margin-left: 40%;
+    display: inline-flex;
+    text-align: center;
+    color: white;
+}
+
+.greycolor {
+    margin: 0 auto;
+    max-width: 800px;
     background-color: rgb(31, 31, 35);
+    color: white;
 
 }
 
 h1{
-    margin: 0px;
+    margin: 0 auto;
+    max-width: 800px;
     padding: 0px;
+}
+
+.popUpText {
+    overflow-y: auto;
 }
