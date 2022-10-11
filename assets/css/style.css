@@ -5,14 +5,14 @@
     
 }
 
-#container {
+.container {
     
     margin: 0 auto;
     padding: 8px;
     background-color: rgb(14, 14, 16);
 }
 
-#intro {
+.intro {
     display: inline;
     padding: 8px;
     font-size: 25px;
@@ -22,8 +22,8 @@
     text-align: left;
 }
 
-#SocialMedia{
-    margin-left: 40%;
+.SocialMedia{
+    margin-left: 60%;
     display: inline-flex;
     text-align: center;
     color: white;
@@ -32,9 +32,15 @@
 .greycolor {
     margin: 0 auto;
     max-width: 800px;
-    background-color: rgb(31, 31, 35);
+    background-color: rgb(32, 32, 34);
     color: white;
 
+}
+
+a {
+    background-color: rgb(14, 14, 16);
+    padding: 5px;
+    text-decoration: none;
 }
 
 h1{
